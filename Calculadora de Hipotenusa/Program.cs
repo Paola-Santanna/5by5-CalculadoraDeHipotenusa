@@ -1,11 +1,7 @@
-﻿//Faça um programa que leia dois valores de cateto e calcule a hipotenusa
-
-//Início
-using static System.Math;
+﻿using static System.Math;
 
 Console.WriteLine("--- Calculadora de Hipostenusa ---\n");
 
-//Criação de Vairáveis
 double cateto_1, cateto_2, hipotenusa_quadrado, hipotenusa;
 
 //Entrada de dados e operações
