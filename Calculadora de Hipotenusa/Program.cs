@@ -35,12 +35,12 @@ do
 hipotenusa_quadrado = (Pow(cateto_1, 2)) + (Pow(cateto_2, 2));
 hipotenusa = Sqrt(hipotenusa_quadrado);
 
+//Final
 Console.WriteLine("\nResultado:");
 Console.WriteLine($"{cateto_1}² + {cateto_2}² = {hipotenusa_quadrado}");
 Console.WriteLine($"{Pow(cateto_1, 2)} + {Pow(cateto_2, 2)} = {hipotenusa_quadrado}");
 Console.WriteLine($"Raiz da Hipotenusa = {hipotenusa}");
 Console.WriteLine($"Hipotenusa = {Round(hipotenusa, 2)}");
 
-//Final
 Console.WriteLine("\nAperte ENTER para encerrar...");
 Console.ReadKey();
