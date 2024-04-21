@@ -41,6 +41,6 @@ Console.WriteLine($"{Pow(cateto_1, 2)} + {Pow(cateto_2, 2)} = {hipotenusa_quadra
 Console.WriteLine($"Raiz da Hipotenusa = {hipotenusa}");
 Console.WriteLine($"Hipotenusa = {Round(hipotenusa, 2)}");
 
-//Final
+//Final do Programa
 Console.WriteLine("\nAperte ENTER para encerrar...");
 Console.ReadKey();
