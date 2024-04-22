@@ -12,12 +12,12 @@ do
     Console.Write("Cateto 1: ");
     cateto_1 = float.Parse(Console.ReadLine());
 
-    if (cateto_1 < 0 || cateto_1 == 0)
+    if (cateto_1 <= 0)
     {
         Console.WriteLine("\nValor inválido");
         Console.WriteLine("Digite novamente: ");
     }
-} while (cateto_1 < 0 || cateto_1 == 0);
+} while (cateto_1 <= 0);
 
 
 do
@@ -25,12 +25,12 @@ do
     Console.Write("Cateto 2: ");
     cateto_2 = float.Parse(Console.ReadLine());
 
-    if (cateto_2 < 0 || cateto_2 == 0)
+    if (cateto_2 <= 0)
     {
         Console.WriteLine("\nValor inválido");
         Console.WriteLine("Digite novamente: ");
     }
-} while (cateto_2 < 0 || cateto_2 == 0);
+} while (cateto_2 <= 0);
 
 hipotenusa_quadrado = (Pow(cateto_1, 2)) + (Pow(cateto_2, 2));
 hipotenusa = Sqrt(hipotenusa_quadrado);
